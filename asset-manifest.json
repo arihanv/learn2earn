@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/learn2earn/static/css/main.2414ef79.css",
-    "main.js": "/learn2earn/static/js/main.a0af3899.js",
+    "main.js": "/learn2earn/static/js/main.9a441631.js",
     "static/js/787.bad17dab.chunk.js": "/learn2earn/static/js/787.bad17dab.chunk.js",
     "static/media/gradient.jpg": "/learn2earn/static/media/gradient.5bbe44f347025a5a6586.jpg",
     "static/media/logo.svg": "/learn2earn/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/learn2earn/index.html",
     "main.2414ef79.css.map": "/learn2earn/static/css/main.2414ef79.css.map",
-    "main.a0af3899.js.map": "/learn2earn/static/js/main.a0af3899.js.map",
+    "main.9a441631.js.map": "/learn2earn/static/js/main.9a441631.js.map",
     "787.bad17dab.chunk.js.map": "/learn2earn/static/js/787.bad17dab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2414ef79.css",
-    "static/js/main.a0af3899.js"
+    "static/js/main.9a441631.js"
   ]
 }
