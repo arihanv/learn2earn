@@ -1,7 +1,5 @@
 import "./App.css";
-
-import TopBar from "./components/molecules/TopBar";
-
+import TopBar from "./TopBar";
 import Form from "react-bootstrap/Form";
 import InputGroup from "react-bootstrap/InputGroup";
 import Dropdown from "react-bootstrap/Dropdown";
