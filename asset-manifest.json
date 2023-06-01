@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/learn2earn/static/css/main.19654ae1.css",
-    "main.js": "/learn2earn/static/js/main.336bac87.js",
+    "main.css": "/learn2earn/static/css/main.ed06d8a5.css",
+    "main.js": "/learn2earn/static/js/main.3a062292.js",
     "static/js/787.bad17dab.chunk.js": "/learn2earn/static/js/787.bad17dab.chunk.js",
     "static/media/gradient.jpg": "/learn2earn/static/media/gradient.5bbe44f347025a5a6586.jpg",
     "static/media/logo.svg": "/learn2earn/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/learn2earn/index.html",
-    "main.19654ae1.css.map": "/learn2earn/static/css/main.19654ae1.css.map",
-    "main.336bac87.js.map": "/learn2earn/static/js/main.336bac87.js.map",
+    "main.ed06d8a5.css.map": "/learn2earn/static/css/main.ed06d8a5.css.map",
+    "main.3a062292.js.map": "/learn2earn/static/js/main.3a062292.js.map",
     "787.bad17dab.chunk.js.map": "/learn2earn/static/js/787.bad17dab.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.19654ae1.css",
-    "static/js/main.336bac87.js"
+    "static/css/main.ed06d8a5.css",
+    "static/js/main.3a062292.js"
   ]
 }
