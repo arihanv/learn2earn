@@ -1,8 +1,8 @@
 import React from "react";
 import TopBar from "../../molecules/TopBar";
-import Tab from "./tabs/Tab";
+import Tab from "../../Courses/tabs/Tab";
 import { useState } from "react";
-import CourseMaterials from "./tabs/CourseMaterials";
+import CourseMaterials from "../../Courses/tabs/CourseMaterials";
 
 function Course() {
   const [activeTab, setActiveTab] = useState("Profile");
@@ -17,7 +17,7 @@ function Course() {
     <>
       <TopBar />
 
-      <div className="bg-Bggradient py-20  w-full px-10 bg-opacity-75 backdrop-blur-sm">
+      <div className="bg-Bggradient py-20 bg-opacity-75 backdrop-blur-sm px-10">
         <Tab activeTab={activeTab} setActiveTab={setActiveTab} />
         <div className="min-h-screen flex w-full justify-center  backdrop-blur-sm">
           {/* <div className="flex w-full h-full justify-between gap-4"> */}

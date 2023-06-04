@@ -2,7 +2,7 @@ import Accordion from "../accordion/Accordion";
 
 const CourseMaterials = () => {
   return (
-    <div className="h-fit border text-white p-8 rounded-lg mb-4 w-full md:w-[80%]">
+    <div className="h-fit border text-white p-8 rounded-lg mb-4 w-full md:w-[80%] bg-gray-900">
       <div className="mb-4">
         <div className="border-b">
           <div className="flex flex-wrap justify-between py-2">
