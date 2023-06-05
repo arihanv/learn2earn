@@ -5,6 +5,8 @@ const CourseMaterials = () => {
     <div className="h-fit border text-white p-8 rounded-lg mb-4 w-full md:w-[80%] bg-gray-900">
       <div className="mb-4">
         <div className="border-b">
+          <h1>Machine Learning</h1>
+
           <div className="flex flex-wrap justify-between py-2">
             <div className="flex justify-between items-center ">
               <svg
@@ -44,20 +46,8 @@ const CourseMaterials = () => {
             </div>
           </div>
         </div>
-        {/* <p className="text-[16px] py-2 px-3">
-          These lectures and readings give you an introduction to this course:
-          its philosophy, organization, and load. They also tell you how the
-          assignments are a significant part of the class. This week covers the
-          common input/output organization of the assignments, how they are
-          graded, and how to succeed in this class.
-        </p> */}
       </div>
       <div className="mb-4">
-        <div className="border-b mb-2">
-          <h2 className="text-lg text-[18px] my-2 font-semibold">
-            Machine Learning
-          </h2>
-        </div>
         <div className="flex items-center cursor-pointer hover:bg-slate-400 px-4 rounded-lg py-2">
           <div className="mr-2">
             <svg
