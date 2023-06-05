@@ -6,12 +6,12 @@ const Tab = ({ setActiveTab, activeTab }) => {
   };
 
   return (
-    <ul className="flex flex-wrap text-sm font-medium text-center text-gray-500 !p-0  dark:border-gray-700 dark:text-gray-400 w-full md:w-[80%] m-auto">
+    <ul className="flex flex-wrap text-sm font-medium text-center text-gray-500 !p-0  dark:text-gray-400 w-full md:w-[80%] m-auto">
       <li className="mr-2">
         <p
           className={`inline-block p-3  rounded-t-lg ${
             activeTab === "CourseMaterials"
-              ? "text-white bg-gray-100 active dark:bg-gray-800 dark:text-white"
+              ? "text-white active bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-600"
               : "hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300"
           }`}
           onClick={() => handleTabClick("CourseMaterials")}
@@ -23,7 +23,7 @@ const Tab = ({ setActiveTab, activeTab }) => {
         <p
           className={`inline-block p-3  rounded-t-lg ${
             activeTab === "Grades"
-              ? "text-white bg-gray-100 active dark:bg-gray-800 dark:text-white"
+              ? "text-white active bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600"
               : "hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300"
           }`}
           onClick={() => handleTabClick("Grades")}
@@ -35,7 +35,7 @@ const Tab = ({ setActiveTab, activeTab }) => {
         <p
           className={`inline-block p-3  rounded-t-lg ${
             activeTab === "Attachments"
-              ? "text-white bg-gray-100 active dark:bg-gray-800 dark:text-white"
+              ? "text-white active bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600"
               : "hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300"
           }`}
           onClick={() => handleTabClick("Attachments")}
@@ -47,7 +47,7 @@ const Tab = ({ setActiveTab, activeTab }) => {
         <p
           className={`inline-block p-3  rounded-t-lg ${
             activeTab === "Certificate"
-              ? "text-white bg-gray-100 active dark:bg-gray-800 dark:text-white"
+              ? "text-white active bg-gradient-to-r from-indigo-600 via-purple-600 to-pink-600"
               : "hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300"
           }`}
           onClick={() => handleTabClick("Certificate")}
