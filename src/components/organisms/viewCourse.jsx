@@ -1,9 +1,10 @@
 import React from "react";
 import { useState } from "react";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 function ViewCourse() {
   const [openAccordion, setOpenAccordion] = useState(false);
+  const { courseName } = useParams();
 
   const toggleAccordion = () => {
     setOpenAccordion(!openAccordion);
@@ -20,9 +21,7 @@ function ViewCourse() {
         <div className="p-2 bg-Bggradient bg-center flex justify-center items-center bg-cover bg-no-repeat rounded-xl w-[20%] absolute right-6 top-6">
           <h2 className="whitespace-nowrap"> $1000</h2>
         </div>
-        <h2 className="text-[32px] font-bold my-4 text-left">
-          Machine Learning
-        </h2>
+        <h2 className="text-[32px] font-bold my-4 text-left">{courseName}</h2>
         <p className="mb-4 text-left">
           Machine learning is a branch of artificial intelligence that focuses
           on developing algorithms and models capable of learning from data and
