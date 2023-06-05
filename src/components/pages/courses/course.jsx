@@ -4,11 +4,10 @@ import Tab from "../../Courses/tabs/Tab";
 import { useState } from "react";
 import CourseMaterials from "../../Courses/tabs/CourseMaterials";
 
-function Course() {
-  const [activeTab, setActiveTab] = useState("Profile");
+const Course = () => {
+  const [activeTab, setActiveTab] = useState("CourseMaterials");
 
   // const [openAccordion, setOpenAccordion] = useState(false);
-
   // const toggleAccordion = () => {
   //   setOpenAccordion(!openAccordion);
   // };
@@ -81,7 +80,7 @@ function Course() {
                 </h2>
               </div>
             </div> */}
-          {activeTab === "Profile" && <CourseMaterials />}
+          {activeTab === "CourseMaterials" && <CourseMaterials />}
 
           {/* <div className="w-[25%] bg-slate-500 rounded-lg"></div> */}
         </div>
@@ -89,6 +88,6 @@ function Course() {
       </div>
     </>
   );
-}
+};
 
 export default Course;

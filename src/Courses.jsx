@@ -38,6 +38,7 @@ function Courses() {
     "Artificial Intelligence",
     "Cyber Security",
   ];
+  //add course Ids for path param?
   const courses = [
     {
       name: "Machine Learning",
@@ -83,7 +84,7 @@ function Courses() {
         <br></br>
         <header className="App-header !justify-normal mt-3 min-h-[98vh]">
           <div className="w-fit sm:w-[80vw] max-w-[1700px] mt-[3.5rem] xl:mt-2 h-full flex flex-col gap-3 drop-shadow-2x">
-          <div className="italic text-left font-semibold text-5xl p-3 text-gray-100 tracking-tight">
+            <div className="italic text-left font-semibold text-5xl p-3 text-gray-100 tracking-tight">
               Courses
             </div>
             <div className="bg-gray-950 p-2 sm:p-4 rounded-xl">
@@ -237,7 +238,9 @@ function Courses() {
                       </div>
                       <div className="flex flex-row gap-2">
                         <button
-                          onClick={()=>window.location.href = "#/viewcourse"}
+                          onClick={() =>
+                            (window.location.href = `#/viewcourse/${course.name}`)
+                          }
                           className="gradHighlight p-[0.5rem] text-sm lg:text-xl font-semibold max-w-fit"
                         >
                           <div className="flex flex-row items-center gap-2 text-sm">

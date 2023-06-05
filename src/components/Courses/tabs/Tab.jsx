@@ -10,11 +10,11 @@ const Tab = ({ setActiveTab, activeTab }) => {
       <li className="mr-2">
         <p
           className={`inline-block p-3  rounded-t-lg ${
-            activeTab === "Profile"
+            activeTab === "CourseMaterials"
               ? "text-white bg-gray-100 active dark:bg-gray-800 dark:text-white"
               : "hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300"
           }`}
-          onClick={() => handleTabClick("Profile")}
+          onClick={() => handleTabClick("CourseMaterials")}
         >
           Course Materials
         </p>
@@ -22,11 +22,11 @@ const Tab = ({ setActiveTab, activeTab }) => {
       <li className="mr-2">
         <p
           className={`inline-block p-3  rounded-t-lg ${
-            activeTab === "Dashboard"
+            activeTab === "Grades"
               ? "text-white bg-gray-100 active dark:bg-gray-800 dark:text-white"
               : "hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300"
           }`}
-          onClick={() => handleTabClick("Dashboard")}
+          onClick={() => handleTabClick("Grades")}
         >
           Grades
         </p>
@@ -34,11 +34,11 @@ const Tab = ({ setActiveTab, activeTab }) => {
       <li className="mr-2">
         <p
           className={`inline-block p-3  rounded-t-lg ${
-            activeTab === "Settings"
+            activeTab === "Attachments"
               ? "text-white bg-gray-100 active dark:bg-gray-800 dark:text-white"
               : "hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300"
           }`}
-          onClick={() => handleTabClick("Settings")}
+          onClick={() => handleTabClick("Attachments")}
         >
           Attachments
         </p>
@@ -46,11 +46,11 @@ const Tab = ({ setActiveTab, activeTab }) => {
       <li className="mr-2">
         <p
           className={`inline-block p-3  rounded-t-lg ${
-            activeTab === "Contacts"
+            activeTab === "Certificate"
               ? "text-white bg-gray-100 active dark:bg-gray-800 dark:text-white"
               : "hover:text-gray-600 hover:bg-gray-50 dark:hover:bg-gray-800 dark:hover:text-gray-300"
           }`}
-          onClick={() => handleTabClick("Contacts")}
+          onClick={() => handleTabClick("Certificate")}
         >
           Certificate
         </p>
